@@ -7,9 +7,6 @@
 <%
 String i1= request.getParameter("i");
 String x1= request.getParameter("x");
-if(i1 == null|| x1==null){
-out.println("x and i are not transmitted");
-return;}
 double i = Double.parseDouble(i1);
 double x = Double.parseDouble(x1);
 if((x < 0) || (x >= 2))
